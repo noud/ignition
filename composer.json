@@ -16,7 +16,7 @@
         "facade/flare-client-php": "^1.3.7",
         "facade/ignition-contracts": "^1.0.2",
         "filp/whoops": "^2.4",
-        "illuminate/support": "^7.0|^8.0",
+        "illuminate/support": "dev-develop-8.x",
         "monolog/monolog": "^2.0",
         "symfony/console": "^5.0",
         "symfony/var-dumper": "^5.0"
@@ -72,5 +72,11 @@
         "forum": "https://twitter.com/flareappio",
         "source": "https://github.com/facade/ignition",
         "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction"
-    }
+    },
+    "repositories": [
+        {
+            "type": "path",
+            "url": "../support"
+        }
+    ]
 }
