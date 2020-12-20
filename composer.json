@@ -13,7 +13,7 @@
         "php": "^7.2.5|^8.0",
         "ext-json": "*",
         "ext-mbstring": "*",
-        "facade/flare-client-php": "^1.3.7",
+        "facade/flare-client-php": "dev-develop-8.x",
         "facade/ignition-contracts": "^1.0.2",
         "filp/whoops": "^2.4",
         "illuminate/support": "dev-develop-8.x",
@@ -74,6 +74,10 @@
         "docs": "https://flareapp.io/docs/ignition-for-laravel/introduction"
     },
     "repositories": [
+        {
+            "type": "path",
+            "url": "../flare-client-php"
+        },
         {
             "type": "path",
             "url": "../support"
